@@ -118,6 +118,7 @@ export function NavbarMinimal() {
 }
 
 import { NextPage } from "next";
+import { useState } from "react";
 import { Grid, Skeleton, Container } from "@mantine/core";
 
 const child = <Skeleton height={140} radius="md" animate={false} />;
